@@ -1,6 +1,6 @@
 package com.company;
 
-public class Dog {
+public class Dog extends Commands{
     public String name;
     public int age;
     public String color;
@@ -23,7 +23,7 @@ public class Dog {
     public void getBreed() {
         System.out.println("Breed of dog: " + breed);
     }
-    public void set(){
+    public void get(){
         System.out.println("Alias: " + name + "\n" + "Color: " + color + "\n" +
                  "Breed of dog: " + breed + "\n" + "Age: " + age + " years");
 
